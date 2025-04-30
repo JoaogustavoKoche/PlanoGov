@@ -2,21 +2,16 @@
 
 $primary-font: 'Open Sans', sans-serif;
 
-body {
-  background-color: #f9fefb;
-  font-family: $primary-font;
-  margin: 0;
-  padding: 0;
-  color: #2b2b2b;
-}
 
 .NavContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 3rem;
-  gap: 2rem;
-  flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 12px auto;
 
   .text-content {
     max-width: 600px;
@@ -56,11 +51,11 @@ body {
 
 .PlanoContainer {
   display: flex;
-  flex-direction: column;
   padding: 2rem;
   background-color: #f2f8f4;
-  gap: 2rem;
   font-family: $primary-font;
+  width: 80%;
+  margin: 12px auto;
 
   h2 {
     font-size: 2rem;
@@ -70,10 +65,76 @@ body {
   }
 
   .text-content {
+    padding: 2rem;
+    background-color: #f7fffa;
+  
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+      color: #2c3e50;
+    }
+  
     display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+  
+    .items-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+  
+    .item {
+      
+      border-radius: 8px;
+      padding: 1rem;
+      box-sizing: border-box;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+  
+      svg {
+        width: 24px;
+        height: 24px;
+        margin-top: 4px;
+        color: #2c3e50;
+        flex-shrink: 0;
+      }
+  
+      div {
+        strong {
+          display: block;
+          margin-bottom: 0.25rem;
+          font-size: 1.1rem;
+          font-weight: 600;
+          color: #2c3e50;
+        }
+  
+        p {
+          margin: 0;
+          font-size: 0.95rem;
+          color: #34495e;
+          line-height: 1.4;
+        }
+      }
+  
+      // Estilo específico para layout
+      &:nth-child(1) {
+        flex: 1 1 48%;
+      }
+  
+      &:nth-child(2) {
+        flex: 1 1 48%;
+      }
+  
+      &:nth-child(3) {
+        flex: 1 1 100%;
+      }
+    }
   }
+  
 
   .item {
     display: flex;
@@ -93,141 +154,6 @@ body {
     }
 
     .colorable-icon {@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
-
-      .App {
-        font-family: 'Open Sans', sans-serif;
-        color: #333;
-        background-color: #f5f5f5;
-        padding: 2rem;
-      
-        h1, h2 {
-          margin: 0;
-        }
-      }
-      
-      /* ---------- NAV CONTAINER ---------- */
-      .NavContainer {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        background-color: #fff;
-        padding: 2rem;
-        border-radius: 20px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-        margin-bottom: 2rem;
-      
-        .text-content {
-          flex: 1 1 400px;
-      
-          h1 {
-            font-size: 2.5rem;
-            line-height: 1.2;
-      
-            .linha1 {
-              font-weight: 400;
-              color: #000;
-            }
-      
-            .linha2 {
-              font-weight: 800;
-              color: #0172ce;
-              text-transform: uppercase;
-            }
-          }
-      
-          p {
-            margin-top: 1rem;
-            font-size: 1.125rem;
-            max-width: 600px;
-            line-height: 1.6;
-          }
-        }
-      
-        img {
-          flex: 1 1 300px;
-          max-width: 400px;
-          width: 100%;
-          height: auto;
-          margin-top: 1rem;
-        }
-      }
-      
-      /* ---------- PLANO CONTAINER ---------- */
-      .PlanoContainer {
-        display: flex;
-        flex-wrap: wrap;
-        background-color: #fff;
-        padding: 2rem;
-        border-radius: 20px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-      
-        .text-content {
-          flex: 1 1 400px;
-      
-          h2 {
-            font-size: 2rem;
-            color: #0172ce;
-            margin-bottom: 1.5rem;
-          }
-      
-          .item {
-            display: flex;
-            align-items: flex-start;
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-      
-            svg.colorable-icon {
-              width: 40px;
-              height: 40px;
-              color: #0172ce;
-              flex-shrink: 0;
-            }
-      
-            strong {
-              display: block;
-              font-weight: 700;
-              font-size: 1.125rem;
-              margin-bottom: 0.3rem;
-            }
-      
-            p {
-              margin: 0;
-              color: #555;
-              font-size: 1rem;
-            }
-          }
-        }
-      
-        img {
-          max-width: 100%;
-          height: auto;
-          object-fit: contain;
-          display: block;
-          border-radius: 12px;
-        }
-      }
-      
-      /* ---------- RESPONSIVO ---------- */
-      @media (max-width: 768px) {
-        .NavContainer, .PlanoContainer {
-          flex-direction: column;
-          text-align: center;
-      
-          .text-content {
-            align-items: center;
-          }
-      
-          img {
-            margin-top: 2rem;
-          }
-      
-          .item {
-            justify-content: center;
-          }
-        }
-      }
-      
       width: 22px;
       height: 22px;
       color: #2b2b2b;
@@ -245,5 +171,90 @@ body {
       font-size: 0.95rem;
       line-height: 1.4;
     }
+  }
+
+  .imgcontainer {
+    img {
+      width: 400px;
+      height: 425px;
+    }
+  }
+}
+
+.GestaoContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 2rem;
+  gap: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  width: 80%;
+  margin: 12px auto;
+
+  .imgcontainer {
+    img {
+      width: 435px;
+      height: 804px;
+    }
+  }
+  
+  .left-title {
+    flex-shrink: 0;
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      line-height: 1.2;
+      color: #2b2b2b;
+    }
+  }
+
+  .right-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .item {
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+
+      .icon-shape {
+        width: 50px;
+        height: 50px;
+        background-color: #e6f1eb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        clip-path: polygon(0 50%, 10% 40%, 0 30%, 0 0, 100% 0, 100% 100%, 0 100%);
+      }
+
+      .icon {
+        width: 20px;
+        height: 20px;
+        color: #2b2b2b;
+      }
+
+      .content {
+        strong {
+          font-weight: 700;
+          font-size: 1.05rem;
+          color: #2b2b2b;
+        }
+
+        p {
+          margin: 0.25rem 0 0;
+          font-size: 0.95rem;
+          color: #4a4a4a;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
+
+  .containerContent{
+    display: flex;
+    gap: 2em;
   }
 }
