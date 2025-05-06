@@ -16,7 +16,7 @@ $primary-font: 'Open Sans', sans-serif;
   .text-content {
     max-width: 600px;
     text-align: left;
-    font-family: 'Georgia', serif;
+    font-family: $primary-font;
 
     h1 {
       font-size: 2.5rem;
@@ -60,7 +60,7 @@ $primary-font: 'Open Sans', sans-serif;
   h2 {
     font-size: 2rem;
     font-weight: 800;
-    font-family: 'Georgia', serif;
+    font-family: $primary-font;
     margin-bottom: 1rem;
   }
 
@@ -187,7 +187,7 @@ $primary-font: 'Open Sans', sans-serif;
   align-items: flex-start;
   padding: 3rem 2rem;
   gap: 4rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: $primary-font;
   width: 80%;
   margin: 12px auto;
 
@@ -256,5 +256,179 @@ $primary-font: 'Open Sans', sans-serif;
   .containerContent{
     display: flex;
     gap: 2em;
+  }
+
+
+  .right-items {
+    position: relative;
+    width: 90px; // mesma largura do SVG de fundo
+    height: 132.5px; // mesma altura do SVG de fundo
+  
+    svg {
+      display: block;
+    }
+  
+    // SVG de fundo
+    .css-17fkblw {
+      fill: #9aa09b;
+      width: 100%;
+      height: 100%;
+    }
+  
+    // Contêiner do ícone menor
+    .icon-shape {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+      .colorable-icon {
+        width: 24px;
+        height: 24px;
+        color: #585c59; // tom cinza
+      }
+    }
+  }
+}
+
+.SaudeContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  background-color: #d8e9db; // verde claro do fundo externo
+  font-family: $primary-font;
+  width: 80%;
+  margin: 2rem auto;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px #3e5d49;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2d3c30;
+    margin-bottom: 2rem;
+  }
+
+  .saudeGroup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 2rem; // vertical e horizontal
+  }
+
+  .container {
+    background-color: #edf5ef;
+    padding: 1rem 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+
+    h3 {
+      font-size: 1.125rem;
+      font-weight: 700;
+      color: #2d3c30;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1rem;
+      color: #2d3c30;
+    }
+  }
+}
+
+.EducacaoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f6fbf6;
+  font-family: 'Open Sans', sans-serif;
+
+  h1 {
+    font-size: 2.5rem;
+    color: #2d3c30;
+    font-weight: 700;
+    margin-bottom: 3rem;
+  }
+
+  .educacaoGroup {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    max-width: 1100px;
+  }
+
+  .left-pyramid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: auto;
+    margin-top: 60px;
+  
+    .layer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #e7eee9;
+      color: #2d3c30;
+      height: 120px;
+      border-radius: 6px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+  
+      .colorable-icon {
+        width: 48px;
+        height: 48px;
+        fill: currentColor;
+      }
+    }
+  
+    .layer:nth-child(1) {
+      width: 120px;
+      z-index: 3;
+    }
+  
+    .layer:nth-child(2) {
+      width: 200px;
+      margin-top: -20px;
+      z-index: 2;
+      transform: skewY(-2deg);
+    }
+  
+    .layer:nth-child(3) {
+      width: 300px;
+      margin-top: -20px;
+      z-index: 1;
+      transform: skewY(-4deg);
+    }
+  }
+
+  .right-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .content-box {
+      border-top: 1px solid #c8d2c9;
+      padding: 2.5rem 0;
+
+      h3 {
+        color: #2d3c30;
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        color: #2d3c30;
+        font-size: 1rem;
+        line-height: 1.5;
+      }
+
+      &:first-child {
+        border-top: none;
+      }
+    }
   }
 }

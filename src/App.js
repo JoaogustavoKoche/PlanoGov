@@ -64,10 +64,21 @@ function App() {
           </div>
 
           <div className='containerContent'>
-
             <div className="right-items">
+              <svg data-testid="arrow-svg" class="css-17fkblw" xmlns="http://www.w3.org/2000/svg">
+                <path d="
+                  M 0 114.5
+                  L 45 132.5
+                  L 90 114.5
+                  L 90 0
+                  L 45 18
+                  L 0 0 Z" 
+                  fill="#d3d7d4"
+                  class="themed-svg-shape-background css-0">
+                </path>
+              </svg>
               <div className="icon-shape">  
-                <svg className="colorable-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" data-icon="user" data-prefix="fal" aria-hidden="true" style={{ width: '16px', height: '16px' }}>
+                  <svg className="colorable-icon" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg" data-icon="user" data-prefix="fal" aria-hidden="true">
                   <path d="M320 128a96 96 0 1 0 -192 0 96 96 0 1 0 192 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM32 480H416c-1.2-79.7-66.2-144-146.3-144H178.3c-80 0-145 64.3-146.3 144zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z" fill="currentColor" />
                 </svg>
               </div>
@@ -80,11 +91,22 @@ function App() {
           </div>
 
            <div className='containerContent'>
-
             <div className="right-items">
+              <svg data-testid="arrow-svg" class="css-17fkblw" xmlns="http://www.w3.org/2000/svg">
+                <path d="
+                  M 0 114.5
+                  L 45 132.5
+                  L 90 114.5
+                  L 90 0
+                  L 45 18
+                  L 0 0 Z" 
+                  fill="#d3d7d4"
+                  class="themed-svg-shape-background css-0">
+                </path>
+              </svg>
               <div className="icon-shape">  
-              <svg class="colorable-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" data-icon="badge" data-prefix="fal" aria-hidden="true" style={{ width: '16px', height: '16px' }}>
-              <path d="M256 32c-28.3 0-53 15.9-65.4 39.4c-3.6 6.8-11.5 10.1-18.8 7.8c-25.4-7.8-54.1-1.6-74.1 18.4s-26.2 48.7-18.4 74.1c2.3 7.3-1 15.2-7.8 18.8C47.9 203 32 227.7 32 256s15.9 53 39.4 65.4c6.8 3.6 10.1 11.5 7.8 18.8c-7.8 25.4-1.6 54.1 18.4 74.1s48.7 26.2 74.1 18.4c7.3-2.3 15.2 1 18.8 7.8C203 464.1 227.7 480 256 480s53-15.9 65.4-39.4c3.6-6.8 11.5-10.1 18.8-7.8c25.4 7.8 54.1 1.6 74.1-18.4s26.2-48.7 18.4-74.1c-2.3-7.3 1-15.2 7.8-18.8C464.1 309 480 284.3 480 256s-15.9-53-39.4-65.4c-6.8-3.6-10.1-11.5-7.8-18.8c7.8-25.4 1.6-54.1-18.4-74.1s-48.7-26.2-74.1-18.4c-7.3 2.3-15.2-1-18.8-7.8C309 47.9 284.3 32 256 32zM168.9 45.6C188 18.1 219.9 0 256 0s68 18.1 87.1 45.6c33-6 68.3 3.8 93.9 29.4s35.3 60.9 29.4 93.9C493.9 188 512 219.9 512 256s-18.1 68-45.6 87.1c6 33-3.8 68.3-29.4 93.9s-60.9 35.3-93.9 29.4C324 493.9 292.1 512 256 512s-68-18.1-87.1-45.6c-33 6-68.3-3.8-93.9-29.4s-35.3-60.9-29.4-93.9C18.1 324 0 292.1 0 256s18.1-68 45.6-87.1c-6-33 3.8-68.3 29.4-93.9s60.9-35.3 93.9-29.4z" fill="currentColor"></path></svg>
+                <svg class="colorable-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" data-icon="badge" data-prefix="fal" aria-hidden="true">
+                <path d="M256 32c-28.3 0-53 15.9-65.4 39.4c-3.6 6.8-11.5 10.1-18.8 7.8c-25.4-7.8-54.1-1.6-74.1 18.4s-26.2 48.7-18.4 74.1c2.3 7.3-1 15.2-7.8 18.8C47.9 203 32 227.7 32 256s15.9 53 39.4 65.4c6.8 3.6 10.1 11.5 7.8 18.8c-7.8 25.4-1.6 54.1 18.4 74.1s48.7 26.2 74.1 18.4c7.3-2.3 15.2 1 18.8 7.8C203 464.1 227.7 480 256 480s53-15.9 65.4-39.4c3.6-6.8 11.5-10.1 18.8-7.8c25.4 7.8 54.1 1.6 74.1-18.4s26.2-48.7 18.4-74.1c-2.3-7.3 1-15.2 7.8-18.8C464.1 309 480 284.3 480 256s-15.9-53-39.4-65.4c-6.8-3.6-10.1-11.5-7.8-18.8c7.8-25.4 1.6-54.1-18.4-74.1s-48.7-26.2-74.1-18.4c-7.3 2.3-15.2-1-18.8-7.8C309 47.9 284.3 32 256 32zM168.9 45.6C188 18.1 219.9 0 256 0s68 18.1 87.1 45.6c33-6 68.3 3.8 93.9 29.4s35.3 60.9 29.4 93.9C493.9 188 512 219.9 512 256s-18.1 68-45.6 87.1c6 33-3.8 68.3-29.4 93.9s-60.9 35.3-93.9 29.4C324 493.9 292.1 512 256 512s-68-18.1-87.1-45.6c-33 6-68.3-3.8-93.9-29.4s-35.3-60.9-29.4-93.9C18.1 324 0 292.1 0 256s18.1-68 45.6-87.1c-6-33 3.8-68.3 29.4-93.9s60.9-35.3 93.9-29.4z" fill="currentColor"></path></svg>
               </div>
             </div>
 
@@ -95,11 +117,22 @@ function App() {
           </div>
 
           <div className='containerContent'>
-
             <div className="right-items">
+              <svg data-testid="arrow-svg" class="css-17fkblw" xmlns="http://www.w3.org/2000/svg">
+                <path d="
+                  M 0 114.5
+                  L 45 132.5
+                  L 90 114.5
+                  L 90 0
+                  L 45 18
+                  L 0 0 Z" 
+                  fill="#d3d7d4"
+                  class="themed-svg-shape-background css-0">
+                </path>
+              </svg>
               <div className="icon-shape">  
-              <svg class="colorable-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" data-icon="chart-line-up-down" data-prefix="fal" aria-hidden="true" style={{ width: '16px', height: '16px' }}>
-              <path d="M32 48c0-8.8-7.2-16-16-16S0 39.2 0 48V400c0 44.2 35.8 80 80 80H496c8.8 0 16-7.2 16-16s-7.2-16-16-16H80c-26.5 0-48-21.5-48-48V48zM368 96h57.4L288 233.4l-68.7-68.7c-3-3-7.1-4.7-11.3-4.7s-8.3 1.7-11.3 4.7l-96 96c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L208 198.6l68.7 68.7c6.2 6.2 16.4 6.2 22.6 0L448 118.6V176c0 8.8 7.2 16 16 16s16-7.2 16-16V80c0-8.8-7.2-16-16-16H368c-8.8 0-16 7.2-16 16s7.2 16 16 16zm0 288h96c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16s-16 7.2-16 16v57.4l-68.7-68.7-22.6 22.6L425.4 352H368c-8.8 0-16 7.2-16 16s7.2 16 16 16z" fill="currentColor"></path></svg>
+                <svg class="colorable-icon" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" data-icon="chart-line-up-down" data-prefix="fal" aria-hidden="true" >
+                <path d="M32 48c0-8.8-7.2-16-16-16S0 39.2 0 48V400c0 44.2 35.8 80 80 80H496c8.8 0 16-7.2 16-16s-7.2-16-16-16H80c-26.5 0-48-21.5-48-48V48zM368 96h57.4L288 233.4l-68.7-68.7c-3-3-7.1-4.7-11.3-4.7s-8.3 1.7-11.3 4.7l-96 96c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0L208 198.6l68.7 68.7c6.2 6.2 16.4 6.2 22.6 0L448 118.6V176c0 8.8 7.2 16 16 16s16-7.2 16-16V80c0-8.8-7.2-16-16-16H368c-8.8 0-16 7.2-16 16s7.2 16 16 16zm0 288h96c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16s-16 7.2-16 16v57.4l-68.7-68.7-22.6 22.6L425.4 352H368c-8.8 0-16 7.2-16 16s7.2 16 16 16z" fill="currentColor"></path></svg>
               </div>
             </div>
 
@@ -112,9 +145,21 @@ function App() {
           <div className='containerContent'>
 
             <div className="right-items">
+             <svg data-testid="arrow-svg" class="css-17fkblw" xmlns="http://www.w3.org/2000/svg">
+                <path d="
+                  M 0 114.5
+                  L 45 132.5
+                  L 90 114.5
+                  L 90 0
+                  L 45 18
+                  L 0 0 Z" 
+                  fill="#d3d7d4"
+                  class="themed-svg-shape-background css-0">
+                </path>
+              </svg>
               <div className="icon-shape">  
-              <svg class="colorable-icon" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg" data-icon="building" data-prefix="fal" aria-hidden="true" style={{ width: '16px', height: '16px' }}>
-              <path d="M64 32C46.3 32 32 46.3 32 64V448c0 17.7 14.3 32 32 32h64V416c0-35.3 28.7-64 64-64s64 28.7 64 64v64h64c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H64zM224 416c0-17.7-14.3-32-32-32s-32 14.3-32 32v64h64V416zm-96 96H64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H256 224 160 128zM64 120c0-13.3 10.7-24 24-24h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H88c-13.3 0-24-10.7-24-24V120zm32 8v32h32V128H96zM248 96h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H248c-13.3 0-24-10.7-24-24V120c0-13.3 10.7-24 24-24zm8 64h32V128H256v32zM64 248c0-13.3 10.7-24 24-24h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H88c-13.3 0-24-10.7-24-24V248zm32 8v32h32V256H96zm152-32h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H248c-13.3 0-24-10.7-24-24V248c0-13.3 10.7-24 24-24zm8 64h32V256H256v32z" fill="currentColor"></path></svg>
+                <svg class="colorable-icon" viewBox="0 0 384 512" xmlns="http://www.w3.org/2000/svg" data-icon="building" data-prefix="fal" aria-hidden="true" >
+                <path d="M64 32C46.3 32 32 46.3 32 64V448c0 17.7 14.3 32 32 32h64V416c0-35.3 28.7-64 64-64s64 28.7 64 64v64h64c17.7 0 32-14.3 32-32V64c0-17.7-14.3-32-32-32H64zM224 416c0-17.7-14.3-32-32-32s-32 14.3-32 32v64h64V416zm-96 96H64c-35.3 0-64-28.7-64-64V64C0 28.7 28.7 0 64 0H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H256 224 160 128zM64 120c0-13.3 10.7-24 24-24h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H88c-13.3 0-24-10.7-24-24V120zm32 8v32h32V128H96zM248 96h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H248c-13.3 0-24-10.7-24-24V120c0-13.3 10.7-24 24-24zm8 64h32V128H256v32zM64 248c0-13.3 10.7-24 24-24h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H88c-13.3 0-24-10.7-24-24V248zm32 8v32h32V256H96zm152-32h48c13.3 0 24 10.7 24 24v48c0 13.3-10.7 24-24 24H248c-13.3 0-24-10.7-24-24V248c0-13.3 10.7-24 24-24zm8 64h32V256H256v32z" fill="currentColor"></path></svg>
               </div>
             </div>
 
@@ -125,6 +170,72 @@ function App() {
           </div>
 
          
+        </div>
+      </div>
+
+      <div className='SaudeContainer'>
+        <h1>Saúde para Todos</h1>
+        <div className='saudeGroup'>
+          <div className='container'>
+            <h3>Hospital Bom Jesus</h3>
+            <p>Buscar junto aos governos o reequilíbrio financeiro e restauração da estrutura hospitalar.</p>
+          </div>
+          <div className='container'>
+            <h3>Programa FILA ZERO</h3>
+            <p>Zerar as filas para exames e cirurgias eletivas.</p>
+          </div>
+          <div className='container'>
+            <h3>Casa da Mulher</h3>
+            <p>Centralizar o atendimento feminino com amplos serviços e atenção às gestantes.</p>
+          </div>
+          <div className='container'>
+            <h3>Atendimento Pediátrico</h3>
+            <p>Pronto atendimento central com Pediatra 24h.</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="EducacaoContainer">
+        <h1>Educação de Qualidade</h1>
+        <div className="educacaoGroup">
+          
+          <div className="left-pyramid">
+            <div className="layer">
+              <svg class="colorable-icon" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" data-icon="graduation-cap" data-prefix="fal" aria-hidden="true">
+                <path d="M307.2 66.2L47.6 160l74 26.7c10.3-6.9 21.5-12.6 33.4-17.1l159.4-59.8c8.3-3.1 17.5 1.1 20.6 9.4s-1.1 17.5-9.4 20.6L166.2 199.6c-1.5 .5-2.9 1.1-4.3 1.7l145.3 52.5c4.1 1.5 8.4 2.2 12.8 2.2s8.7-.8 12.8-2.2L592.4 160 332.8 66.2c-4.1-1.5-8.4-2.2-12.8-2.2s-8.7 .8-12.8 2.2zM296.3 283.9L126.9 222.7C99.4 246 82.1 279.9 80.2 316.9c5.9 13.2 10.2 27.5 13.4 41.5c6.4 27.6 10.7 65.9 2.1 108.7c-.9 4.3-3.4 8-7.1 10.4s-8.2 3.1-12.4 2l-64-16c-5.2-1.3-9.4-5.1-11.2-10.2s-.9-10.7 2.3-14.9c8.6-11.7 16-24.6 22.5-37.6C37.2 377.8 48 348.4 48 320c0-.6 0-1.2 .1-1.8c1.4-41 18-79.1 45.1-107.7L15.8 182.6C6.3 179.1 0 170.1 0 160s6.3-19.1 15.8-22.6L296.3 36.1c7.6-2.7 15.6-4.1 23.7-4.1s16.1 1.4 23.7 4.1L624.2 137.4c9.5 3.4 15.8 12.5 15.8 22.6s-6.3 19.1-15.8 22.6L343.7 283.9c-7.6 2.7-15.6 4.1-23.7 4.1s-16.1-1.4-23.7-4.1zm-122-10L160.4 406.3c.7 .8 1.8 2.1 3.7 3.7c6 5.2 16.5 11.5 31.9 17.5C226.4 439.4 270.3 448 320 448s93.6-8.6 124.1-20.6c15.4-6 25.8-12.3 31.9-17.5c1.9-1.6 3-2.8 3.7-3.7L465.7 273.8l31-11.2L512 408c0 35.3-86 72-192 72s-192-36.7-192-72l15.3-145.4 31 11.2zM480.5 405a.2 .2 0 1 0 -.3-.1 .2 .2 0 1 0 .3 .1zm-321 0a.1 .1 0 1 0 .2 0 .1 .1 0 1 0 -.2 0zM67 444.2c2.5-20.7 1.7-40-.5-56.7c-3.8 10-8 19.3-12.1 27.6c-3.8 7.6-7.9 15.2-12.5 22.8L67 444.2z" fill="currentColor">
+                </path>
+              </svg>
+            </div>
+            <div className="layer">
+              <svg class="colorable-icon" viewBox="0 0 640 512" xmlns="http://www.w3.org/2000/svg" data-icon="school" data-prefix="fal" aria-hidden="true">
+                <path d="M328.9 2.7c-5.4-3.6-12.4-3.6-17.8 0L171.2 96H64C28.7 96 0 124.7 0 160V448c0 35.3 28.7 64 64 64H256h32 64 32H576c35.3 0 64-28.7 64-64V160c0-35.3-28.7-64-64-64H468.8L328.9 2.7zM384 384c0-35.3-28.7-64-64-64s-64 28.7-64 64v96H64c-17.7 0-32-14.3-32-32V160c0-17.7 14.3-32 32-32H176c3.2 0 6.2-.9 8.9-2.7L320 35.2l135.1 90.1c2.6 1.8 5.7 2.7 8.9 2.7H576c17.7 0 32 14.3 32 32V448c0 17.7-14.3 32-32 32H384V384zm-32 96H288V384c0-17.7 14.3-32 32-32s32 14.3 32 32v96zM96 192v64c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32H128c-17.7 0-32 14.3-32 32zm64 0v64H128V192h32zm320-32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V192c0-17.7-14.3-32-32-32H480zm0 32h32v64H480V192zM96 352v64c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32H128c-17.7 0-32 14.3-32 32zm64 0v64H128V352h32zm320-32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V352c0-17.7-14.3-32-32-32H480zm0 32h32v64H480V352zM320 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128zm0 160a96 96 0 1 0 0-192 96 96 0 1 0 0 192zm16-128c0-8.8-7.2-16-16-16s-16 7.2-16 16v32c0 8.8 7.2 16 16 16h24c8.8 0 16-7.2 16-16s-7.2-16-16-16h-8V160z" fill="currentColor">
+                </path>
+              </svg>
+            </div>
+            <div className="layer">
+              <svg class="colorable-icon" viewBox="0 0 320 512" xmlns="http://www.w3.org/2000/svg" data-icon="child" data-prefix="fal" aria-hidden="true">
+                <path d="M128 64a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm96 0A64 64 0 1 0 96 64a64 64 0 1 0 128 0zM73.9 240.2c1.9-3.1 3.9-6 6.1-8.9V496c0 8.8 7.2 16 16 16s16-7.2 16-16V384h96V496c0 8.8 7.2 16 16 16s16-7.2 16-16V231.3c2.2 2.8 4.2 5.8 6.1 8.9l44.3 72.2c4.6 7.5 14.5 9.9 22 5.3s9.9-14.5 5.3-22l-44.3-72.2C249.2 184 206.3 160 160 160s-89.2 24-113.4 63.5L2.4 295.6c-4.6 7.5-2.3 17.4 5.3 22s17.4 2.3 22-5.3l44.3-72.2zM208 352H112V204.1c14.5-7.8 31-12.1 48-12.1s33.5 4.3 48 12.1V352z" fill="currentColor">
+                </path>
+              </svg>
+            </div>
+          </div>
+
+        
+          <div className="right-content">
+            <div className="content-box">
+              <h3>Valorização Profissional</h3>
+              <p>Plano de Cargos e Salários do Magistério e concurso público imediato.</p>
+            </div>
+            <div className="content-box">
+              <h3>Novas Estruturas</h3>
+              <p>CMEI na região central e Nova Escola do Bairro Alto em tempo Integral.</p>
+            </div>
+            <div className="content-box">
+              <h3>Educação Especializada</h3>
+              <p>Novo espaço para a Escola Especial Tia Apolônia.</p>
+            </div>
+          </div>
+          
         </div>
       </div>
 
