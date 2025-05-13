@@ -1,4 +1,5 @@
 import './App.scss';
+import Seguranca from './Pages/Seguranca';
 
 function App() {
   return (
@@ -238,6 +239,9 @@ function App() {
           
         </div>
       </div>
+
+      <Seguranca/>
+
 
     </div>
   );

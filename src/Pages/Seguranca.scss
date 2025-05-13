@@ -1,0 +1,50 @@
+@import '../assets/fonts/font.scss';
+
+.SegurancaContainer {
+    background: url('../assets/images/backgroundCidade.avif') no-repeat center center;
+    background-size: cover;
+    padding: 4rem 2rem;
+    color: #fff;
+    font-family: $primary-font;
+
+    h1 {
+      text-align: center;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 3rem;
+    }
+  
+    .contentGroup {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2.5rem;
+    }
+  
+    .content {
+      background: transparent;
+      text-align: center;
+      max-width: 220px;
+  
+      svg {
+        width: 40px;
+        height: 40px;
+        color: #8fd46f;
+        margin-bottom: 1rem;
+      }
+  
+      h3 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        color: #ffffff;
+      }
+  
+      p {
+        font-size: 0.95rem;
+        color: #cccccc;
+        line-height: 1.4;
+      }
+    }
+  }
+  
